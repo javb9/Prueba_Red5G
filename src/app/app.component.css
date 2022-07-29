@@ -1,0 +1,398 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+  }
+  .header-down {
+    top: 0px;
+    left: 0px;
+    height: 75px;
+    width: 100%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 0px 16px 16px;
+    opacity: 1;
+  }
+  .header-up {
+    top: 0px;
+    left: 0px;
+    height: 100px;
+  
+    background: transparent linear-gradient(90deg, #ff885c 0%, #ff5353 100%) 0% 0%
+      no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-up h3{
+      margin-right: 40%;
+  }
+  
+  
+  .header-title {
+    text-align: center;
+    letter-spacing: 0px;
+    font: normal normal bold 34px/42px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 34px;
+    margin: 0;
+    margin-right: 25%;
+  }
+  
+  .header-button {
+    margin-right: 25%;
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 100;
+  }
+  
+  .header-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-input input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #ff5d54;
+    border-radius: 8px;
+    opacity: 1;
+  
+    margin-right: 15%;
+    width: 624px;
+    height: 50px;
+    margin-top: 8px;
+  }
+  
+  .header-input input::placeholder {
+    padding-left: 10px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 16px/21px;
+    letter-spacing: 0px;
+    color: #ff5d54;
+    opacity: 1;
+  }
+  
+  .header-input input:focus {
+    border-color: #ff5d54;
+    outline: 0 none;
+  }
+  
+  .carrito {
+      top: 0px;
+      left: 85%;
+      width: 15%;
+      height: 100%;
+  
+      position: fixed;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: -5px 3px 6px #00000029;
+      border-radius: 24px 0px 0px 0px;
+      opacity: 1;
+  }
+  
+  .carrito-header{
+      height: 210px;
+      border-radius: 24px 0px 0px 0px;
+      opacity: 1;
+  }
+  
+  .carrito-header-up{
+      
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+  }
+  .carrito-header-title{
+      margin-left: 10px;
+      text-align: left;
+      font: normal normal bold 16px/21px Roboto;
+      letter-spacing: 0.02px;
+      color: #FF5D54;
+      opacity: 1;
+  }
+  .carrito-header-up i{
+      margin-left: 30px;
+      font-size: 40px;
+      color: #FF5D54;
+      opacity: 3;
+  }
+  
+  .carrito-total{
+      height: 80px;
+      background: #EFEFEF 0% 0% no-repeat padding-box;
+      opacity: 1;
+      border-top: 1px dashed #FF5D54;
+      border-bottom: 1px dashed #FF5D54;
+      text-align: center;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .carrito-total label{
+      font-weight: bold;
+      font-size: 20px;
+      margin: 0;
+  }
+  .carrito-total p{
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .carrito-body{
+      height: 250px;
+      background: #F4F4F4 0% 0% no-repeat padding-box;
+      opacity: 1;
+      scroll-behavior: auto;
+      text-align: center;
+      overflow-y: auto;
+  }
+  .carrito-item{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+  }
+  .carrito-item-caracteristicas{
+      display: block;
+      margin-right: 20%;
+      margin-left: 25%;
+      margin-top: 10px;
+  }
+  .carrito-item-caracteristicas p{
+    font-size: 15px;
+    margin: 0;
+  }
+  .carrito-item-caracteristicas label{
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0;
+  }
+  .carrito-item-icon button{
+    background-color: transparent;
+    border: none;
+  }
+  .carrito-item-icon button i{
+    text-align: center;
+    font: normal normal normal 20px/23px;
+    letter-spacing: 0px;
+    color: #FF5D54;
+    opacity: 1;
+  }
+  
+  .carrito-footer{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000029;
+    opacity: 1;
+    height: 160px;
+  
+    display: block;
+    text-align: center;
+  }
+  .carrito-footer input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FF5D54;
+    border-radius: 8px;
+    opacity: 1;
+    height: 56px;
+    
+    width: 80%;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  .carrito-footer input::placeholder {
+    padding-left: 10px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 16px/21px;
+    letter-spacing: 0px;
+    color: #ff5d54;
+    opacity: 1;
+  }
+  
+  .carrito-footer input:focus {
+    border-color: #ff5d54;
+    outline: 0 none;
+  }
+  
+  .carrito-footer button{
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 30px;
+    opacity: 1;
+    height: 56px;
+  
+    text-align: center;
+    font: normal normal bold 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 80%;
+    border: 1px solid #FF5D54;
+  }
+  .articulos{
+    margin-top: 190px;
+    margin-left: 15px;
+    opacity: 1;
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    display: flex;
+    overflow-y: visible;
+    overflow-x: auto;
+  }
+  .articulo{
+    display: block;
+    width: 198px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .articulos-card{
+    height: 156px;
+  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    text-align: center;
+  }
+  .articulo-card-img{
+    padding-top: 12px;
+  }
+  .articulos-card-p p{
+    font: normal normal bold;
+    font-size: 15px;
+    margin-top: 0;
+    opacity: 1;
+  }
+  .articulos-buttons{
+    display: flex;
+    margin-top: 10px;
+  }
+  .articulos-buttons input{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 0.02px;
+    color: #404040;
+    opacity: 1;
+    width: 66px;
+  
+  }
+  .articulos-button-menos{
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px 0px 0px 12px;
+    opacity: 1;
+    width: 66px;
+    height: 48px;
+    border: 1px solid #FF5D54;
+    color: #ffffff;
+  }
+  .articulos-button-mas{
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 12px 12px 0px;
+    opacity: 1;
+    width: 66px;
+    height: 48px;
+    border: 1px solid #FF5D54;
+    color: #ffffff;
+  }
+  
+  .articulos-buttons input {
+    border:none;
+    outline: 0 none;
+  }
+  
+  .modal-body{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    opacity: 1;
+    text-align: center;
+  }
+  .modal-body h3{
+    font-weight: bold;
+  }
+  .modal-body-metodoPago{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-body-metodoPagos{
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+  }
+  .metodoPagos{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    opacity: 1;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FF5D54;
+  }
+  .metodoPagos i{
+    font-size: 40px;
+  }
+  .modal-body-button{
+    margin-top: 20px;
+    width: 304px; 
+    height: 48px;
+    background: #FF5D54 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border: 1px solid #FF5D54;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .modal-body-input{
+    margin-top: 10px;
+    height: 56px;
+    border: 1px solid #FF5D54;
+    border-radius: 8px;
+    opacity: 1;
+  }
+  .modal-body-inputs{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .modal-body-input:focus {
+    border-color: #ff5d54;
+    outline: 0 none;
+  }
+  .modal-body-input::placeholder {
+    padding-left: 10px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 16px/21px;
+    letter-spacing: 0px;
+    color: #ff5d54;
+    opacity: 1;
+  }
+  .modal-body-img i{
+    font-size: 150px;
+    color: #ff5d54;
+    opacity: 1;
+  }
