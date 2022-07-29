@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Uso de app
+
+primero se añaden los items al carrito donde se pueden quitar o poner mas, despues se ingresa celular o se da en boton vender,
+donde se abrira un pop up que pedira el metodo de pago, se elige uno se da click en vender, despues se agrega numero y nombre del cliente si anteriormente ya se agrego el celular ya aparecera lleno el campo de celular y se da en registrar
